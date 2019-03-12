@@ -23,7 +23,3 @@ class Stack:
     def size(self):
         return len(self.items)
 
-stack = Stack()
-stack.push('first item')
-print(stack.pop())
-print(stack.pop())
